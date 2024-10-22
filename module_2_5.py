@@ -1,6 +1,6 @@
 def get_matrix(n, m, value):
     matrix = []
-    if n * m * value == 0:
+    if n * m * value <= 0:
         print(matrix)
     else:
         for i in range(1, n + 1):
